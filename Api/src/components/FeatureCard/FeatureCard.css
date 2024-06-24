@@ -1,0 +1,12 @@
+.cate {
+    text-decoration: none;
+}
+
+.cate-p {
+    padding: 0px;
+    background: linear-gradient(to bottom, #a14cc9, #ddd8e0);
+}
+
+.h1-heading {
+    font-weight: 900;
+}

@@ -1,0 +1,60 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.subheading{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* text-align: right; */
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 10px 0px;
+}
+.image {
+    width: 100%; /* Make the image take up the full width of the card */
+    height: 100px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the image covers the area without stretching */
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0px;
+}
+input{
+    width: 25%;
+}
+button{
+    border-radius: 5px;
+}
+.remove-btn{
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+    border-radius: 6px;
+    padding: 0px 5px;
+}
+.price{
+    margin-left: 240px;
+}
+.category{
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-right{
+    float: right;
+    padding: 0px 15px;
+    border-radius: 90px 90px 0px 90px; 
+    border: 2px solid black;
+}
+.btn-left{
+    float: left;  
+    padding: 20px;
+    border-radius: 90px 90px 0px 90px; 
+}

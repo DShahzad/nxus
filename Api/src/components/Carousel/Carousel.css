@@ -1,0 +1,14 @@
+.custom-carousel-container {
+   
+    width: 100%; /* Set the width to 60% */
+    height: 80vh; /* Set the height to 40% of the viewport height */
+    margin: auto; /* Center the carousel horizontally */
+}
+
+.carousel-item img {
+    margin-top: 57px;
+    height: 75vh; /* Ensure the image takes up the full height of the carousel */
+    object-fit: fill;
+    border-radius: 10px; /* Ensure the image covers the area without stretching */
+    
+}

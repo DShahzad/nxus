@@ -1,0 +1,40 @@
+
+.card-img-top.fixed-size {
+    width: 100%; /* Make the image take up the full width of the card */
+    height: 200px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the image covers the area without stretching */
+}
+.card{
+    border-radius: 50px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+.card-body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.25rem; /* Ensure title font size is consistent */
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    flex-grow: 1; /* Make the text take up remaining space */
+}
+.P-heading{
+    margin-top: 50px;
+    font-weight: 900;
+}
+.ordernowbtn{
+    background: linear-gradient(to bottom, #a14cc9, #2e0148);
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 90px 90px 0px 90px;
+    padding: 5px;
+    color: white;
+   
+}
